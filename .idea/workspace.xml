@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14e3d698-7190-498e-ab0d-c8ebc0d4d5f6" name="Changes" comment="{types}: добавляет типы для объекта Telegram">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +77,7 @@
       <workItem from="1666647614043" duration="76000" />
       <workItem from="1666727920810" duration="589000" />
       <workItem from="1666730309448" duration="645000" />
-      <workItem from="1666811966210" duration="4609000" />
+      <workItem from="1666811966210" duration="4732000" />
     </task>
     <task id="LOCAL-00001" summary="{feat}: добавляет telegram web app">
       <created>1666385475151</created>
@@ -115,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666817714634</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="{types}: добавляет типы для объекта Telegram">
+      <created>1666817803616</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666817803616</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
