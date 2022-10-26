@@ -8,7 +8,7 @@ const App: React.FC = () => {
 
   useEffect(() => {
     tg.ready()
-  }, [''])
+  }, [tg])
 
   return (
     <div className="App">
