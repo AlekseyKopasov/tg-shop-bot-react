@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14e3d698-7190-498e-ab0d-c8ebc0d4d5f6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/types/index.d.ts" afterDir="false" />
+    <list default="true" id="14e3d698-7190-498e-ab0d-c8ebc0d4d5f6" name="Changes" comment="{feat}: добавляет telegram web app">
+      <change afterPath="$PROJECT_DIR$/src/components/Button/Button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Button/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,7 +46,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.start">
     <configuration type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -69,8 +77,20 @@
       <workItem from="1665952452083" duration="32000" />
       <workItem from="1666039068117" duration="1835000" />
       <workItem from="1666208939807" duration="369000" />
-      <workItem from="1666383891224" duration="1325000" />
+      <workItem from="1666383891224" duration="1938000" />
+      <workItem from="1666647614043" duration="76000" />
+      <workItem from="1666727920810" duration="589000" />
+      <workItem from="1666730309448" duration="645000" />
+      <workItem from="1666811966210" duration="2236000" />
     </task>
+    <task id="LOCAL-00001" summary="{feat}: добавляет telegram web app">
+      <created>1666385475151</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666385475151</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,5 +106,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="{feat}: добавляет telegram web app" />
+    <option name="LAST_COMMIT_MESSAGE" value="{feat}: добавляет telegram web app" />
   </component>
 </project>

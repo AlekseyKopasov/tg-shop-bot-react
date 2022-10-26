@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import './App.css'
+import Header from './components/Header/Header'
 
 let tg =  window.Telegram.WebApp
 
@@ -8,13 +9,9 @@ const App: React.FC = () => {
     tg.ready()
   }, [])
 
-  const onClose = () => {
-    tg.close()
-  }
-
   return (
     <div className="App">
-      <button onClick={onClose}>Закрыть</button>
+      <Header />
     </div>
   )
 }
