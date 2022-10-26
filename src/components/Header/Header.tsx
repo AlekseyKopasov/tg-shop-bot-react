@@ -1,5 +1,7 @@
 import React from 'react'
 import Button from '../Button/Button'
+import '../Button/Button.css'
+import '../Header/Header.css'
 
 let tg =  window.Telegram.WebApp
 
@@ -10,7 +12,7 @@ const Header: React.FC = () => {
 
   return (
     <div className={'header'}>
-      <Button className={'button'} onClick={onClose}>Закрыть</Button>
+      <Button onClick={onClose}>Закрыть</Button>
       <span className={'username'}>{tg.initDataUnsafe?.user?.username}</span>
     </div>
   )
