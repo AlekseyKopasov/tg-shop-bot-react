@@ -20,7 +20,7 @@ const Form: React.FC = () => {
     } else {
       tg.MainButton.show()
     }
-  }, [country, street])
+  }, [tg, country, street])
 
   const onChangeCountry = (e: ChangeEvent<HTMLInputElement>) => {
     setCountry(e.target.value)

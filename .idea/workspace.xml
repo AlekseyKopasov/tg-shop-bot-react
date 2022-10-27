@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14e3d698-7190-498e-ab0d-c8ebc0d4d5f6" name="Changes" comment="{feat}: добавляет форму заказа">
-      <change afterPath="$PROJECT_DIR$/src/components/Form/Form.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Form/Form.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProductItem/ProductItem.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProductItem/ProductItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProductList/ProductList.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProductList/ProductList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Form/Form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form/Form.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +88,7 @@
       <workItem from="1666727920810" duration="589000" />
       <workItem from="1666730309448" duration="645000" />
       <workItem from="1666811966210" duration="5721000" />
-      <workItem from="1666901239477" duration="3234000" />
+      <workItem from="1666901239477" duration="3357000" />
     </task>
     <task id="LOCAL-00001" summary="{feat}: добавляет telegram web app">
       <created>1666385475151</created>
@@ -157,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666818064286</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="{feat}: добавляет форму заказа">
+      <created>1666905566974</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666905566974</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
