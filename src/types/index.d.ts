@@ -12,6 +12,7 @@ type TgMainButtonTypes = {
   show: () => void
   hide: () => void
   setParams: ({}: TgMainButtonSetParamsTypes) => void
+  onClick: (cb: any) => void
 }
 
 type TgInitDataUnsafeTypes = {
@@ -27,6 +28,9 @@ declare global {
       WebApp: {
         ready: () => void
         close: () => void
+        sendData: (data: string) => void
+        onEvent: (eventName: string, data: () => void) => void
+        offEvent: (eventName: string, data: () => void) => void
         MainButton: TgMainButtonTypes
         initDataUnsafe: TgInitDataUnsafeTypes
       }
