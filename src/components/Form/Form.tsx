@@ -16,7 +16,7 @@ const Form: React.FC = () => {
     }
 
     tg.sendData(JSON.stringify(data))
-  }, [])
+  }, [country, street, subject])
 
   useEffect(() => {
     tg.onEvent('backButtonClicked', onSendData)
