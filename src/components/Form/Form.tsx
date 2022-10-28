@@ -23,7 +23,7 @@ const Form: React.FC = () => {
     return () => {
       tg.offEvent('backButtonClicked', onSendData)
     }
-  }, [])
+  }, [onSendData, tg])
 
   useEffect(() => {
     tg.MainButton.setParams({
