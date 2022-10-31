@@ -35,9 +35,9 @@ declare global {
       WebApp: {
         ready: () => void
         close: () => void
-        sendData: (data: string) => any
-        onEvent: (eventName: string, data: () => void) => Promise<void>
-        offEvent: (eventName: string, data: () => void) => Promise<void>
+        sendData: (data: string) => void
+        onEvent: (eventName: string, data: sendData) => Promise<void>
+        offEvent: (eventName: string, data: sendData) => Promise<void>
         MainButton: TgMainButtonTypes
         initDataUnsafe: TgInitDataUnsafeTypes
       }
