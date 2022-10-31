@@ -22,15 +22,22 @@ type TgInitDataUnsafeTypes = {
   }
 }
 
+type FormEventDataTypes = {
+  sendData: (country: string,
+             street: string,
+             subject: string,
+             ) => Promise<void>
+}
+
 declare global {
   interface Window {
     Telegram: {
       WebApp: {
         ready: () => void
         close: () => void
-        sendData: (data: string) => void
-        onEvent: (eventName: string, data: () => void) => void
-        offEvent: (eventName: string, data: () => void) => void
+        sendData: (data: string) => any
+        onEvent: (eventName: string, data: () => void) => Promise<void>
+        offEvent: (eventName: string, data: () => void) => Promise<void>
         MainButton: TgMainButtonTypes
         initDataUnsafe: TgInitDataUnsafeTypes
       }
