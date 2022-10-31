@@ -36,8 +36,8 @@ declare global {
         ready: () => void
         close: () => void
         sendData: (data: string) => void
-        onEvent: (eventName: string, data: sendData) => Promise<void>
-        offEvent: (eventName: string, data: sendData) => Promise<void>
+        onEvent: (eventType: string, eventHandler: sendData) => void
+        offEvent: (eventType: string, eventHandler: sendData) => void
         MainButton: TgMainButtonTypes
         initDataUnsafe: TgInitDataUnsafeTypes
       }
