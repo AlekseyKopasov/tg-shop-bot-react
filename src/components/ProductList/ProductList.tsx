@@ -24,11 +24,7 @@ const getTotalPrice = (items: Array<ProductType>) => {
   }, 0)
 }
 
-type PropsType = {
-  products: Array<ProductType>
-}
-
-const ProductList: React.FC<PropsType> = () => {
+const ProductList: React.FC = () => {
 
   const [addedItems, setAddedItems] = useState([])
   const { tg } = useTelegram()

@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="14e3d698-7190-498e-ab0d-c8ebc0d4d5f6" name="Changes" comment="{feat}: получает данные от бота">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Form/Form.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Form/Form.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProductItem/ProductItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductItem/ProductItem.tsx" afterDir="false" />
+    <list default="true" id="14e3d698-7190-498e-ab0d-c8ebc0d4d5f6" name="Changes" comment="{feat}: добавляет корзину товаров">
       <change beforePath="$PROJECT_DIR$/src/components/ProductList/ProductList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductList/ProductList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/index.d.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +93,7 @@
       <workItem from="1667246315832" duration="3276000" />
       <workItem from="1667502451139" duration="675000" />
       <workItem from="1667503631188" duration="2703000" />
-      <workItem from="1667591479076" duration="1077000" />
+      <workItem from="1667591479076" duration="1241000" />
     </task>
     <task id="LOCAL-00001" summary="{feat}: добавляет telegram web app">
       <created>1666385475151</created>
@@ -246,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667249368532</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="{feat}: добавляет корзину товаров">
+      <created>1667592601630</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1667592601630</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +274,7 @@
     <MESSAGE value="{feat}: добавляет форму заказа" />
     <MESSAGE value="{feat}: добавляет netlify.toml file" />
     <MESSAGE value="{feat}: получает данные от бота" />
-    <option name="LAST_COMMIT_MESSAGE" value="{feat}: получает данные от бота" />
+    <MESSAGE value="{feat}: добавляет корзину товаров" />
+    <option name="LAST_COMMIT_MESSAGE" value="{feat}: добавляет корзину товаров" />
   </component>
 </project>
