@@ -9,7 +9,7 @@ const Form: React.FC = () => {
   const { tg } = useTelegram()
 
   const onSendData = useCallback(() => {
-    const data = {
+    const data = { 
       country,
       street,
       subject
