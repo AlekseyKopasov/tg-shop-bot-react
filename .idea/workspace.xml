@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14e3d698-7190-498e-ab0d-c8ebc0d4d5f6" name="Changes" comment="{feat}: добавляет корзину товаров">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ProductList/ProductList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductList/ProductList.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +94,7 @@
       <workItem from="1667246315832" duration="3276000" />
       <workItem from="1667502451139" duration="675000" />
       <workItem from="1667503631188" duration="2703000" />
-      <workItem from="1667591479076" duration="1241000" />
+      <workItem from="1667591479076" duration="1472000" />
     </task>
     <task id="LOCAL-00001" summary="{feat}: добавляет telegram web app">
       <created>1666385475151</created>
@@ -249,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667592601630</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="{feat}: добавляет корзину товаров">
+      <created>1667592747738</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1667592747738</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

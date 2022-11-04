@@ -56,7 +56,7 @@ const ProductList: React.FC = () => {
   return (
     <div className={'list'}>
       { products.map(item => {
-        <ProductItem
+        return <ProductItem
           className={'item'}
           product={item}
           key={item.id}
