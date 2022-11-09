@@ -26,7 +26,8 @@ type TgInitDataUnsafeTypes = {
   user: {
     username: string
     id: number
-  }
+  },
+  query_id: string
 }
 
 type FormEventDataTypes = {
