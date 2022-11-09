@@ -15,30 +15,35 @@ const products = [
   { id: 8, title: 'Товар 8', price: 15000, description: 'Описание товара 8' },
   { id: 9, title: 'Товар 9', price: 999, description: 'Описание товара 9' },
   { id: 10, title: 'Товар 10', price: 10, description: 'Описание товара 10' },
-  { id: 11, title: 'Товар 11', price: 999000, description: 'Описание товара 11'}
+  { id: 11, title: 'Товар 11', price: 999000, description: 'Описание товара 11' },
 ] as Array<ProductType>
 
-const getTotalPrice = (items: Array<ProductType>) => {
-  items.reduce((acc, item) => {
+const getTotalPrice = (items = [] as Array<ProductType>) => {
+  return items.reduce((acc, item) => {
+    // @ts-ignore
     return acc += item.price
   }, 0)
 }
 
 const ProductList: React.FC = () => {
 
-  const [addedItems, setAddedItems] = useState([])
+  const [ addedItems, setAddedItems ] = useState([] as Array<ProductType>)
   const { tg } = useTelegram()
 
-  const onAdd = (product: ProductType) => {
-    // @ts-ignore
-    const alreadyAdded = addedItems.find(item => item.id === product.id)
+  const onAdd = (product: { id: number, title: string, description: string, price: number }) => {
+    const alreadyAdded = addedItems.find(item => {
+      const { id } = item
+      return id === product.id
+    })
     let newItems = []
 
     if (alreadyAdded) {
-      // @ts-ignore
-      newItems = alreadyAdded.filter(item => item.id !== product.id)
+      newItems = addedItems.filter(item => {
+        const { id } = item
+        return id !== product.id
+      })
     } else {
-      newItems = [...addedItems, product]
+      newItems = [ ...addedItems, product ]
     }
 
     setAddedItems(newItems)
@@ -48,19 +53,19 @@ const ProductList: React.FC = () => {
     } else {
       tg.MainButton.show()
       tg.MainButton.setParams({
-        text: `Купить ${getTotalPrice(newItems)}`
+        text: `Купить ${ getTotalPrice(newItems) }`,
       })
     }
   }
 
   return (
-    <div className={'list'}>
+    <div className={ 'list' }>
       { products.map(item => {
         return <ProductItem
-          className={'item'}
-          product={item}
-          key={item.id}
-          onAdd={onAdd}
+          className={ 'item' }
+          product={ item }
+          key={ item.id }
+          onAdd={ onAdd }
         />
       }) as ReactNode }
     </div>

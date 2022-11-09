@@ -1,3 +1,10 @@
+export type ProductType = {
+  id: number
+  title: string
+  description: string
+  price: number
+}
+
 export {}
 type TgMainButtonSetParamsTypes = {
   text?: string
@@ -43,11 +50,4 @@ declare global {
       }
     }
   }
-}
-
-export type ProductType = {
-  id: number
-  title: string
-  description: string
-  price: number
 }
